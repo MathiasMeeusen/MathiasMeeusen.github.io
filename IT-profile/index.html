@@ -3,17 +3,41 @@
 <head>
   <meta charset="utf-8">
   
-  <title>IT-profile | GIP-Blog</title>
+  <title>GIP-Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="2014-2015">
+  <meta name="description" content=".meter { 
+			height: 20px;
+			width: 500px;
+			position: relative;
+			margin: 5px 0 20px 0;
+			background: #555;
+			-moz-border-radius: 25px;
+			-webkit-border-radius: 25px;
+			border-radius:25p">
 <meta property="og:type" content="website">
-<meta property="og:title" content="IT-profile">
+<meta property="og:title" content="GIP-Blog">
 <meta property="og:url" content="http://MathiasMeeusen.github.io/IT-profile/index.html">
 <meta property="og:site_name" content="GIP-Blog">
-<meta property="og:description" content="2014-2015">
+<meta property="og:description" content=".meter { 
+			height: 20px;
+			width: 500px;
+			position: relative;
+			margin: 5px 0 20px 0;
+			background: #555;
+			-moz-border-radius: 25px;
+			-webkit-border-radius: 25px;
+			border-radius:25p">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="IT-profile">
-<meta name="twitter:description" content="2014-2015">
+<meta name="twitter:title" content="GIP-Blog">
+<meta name="twitter:description" content=".meter { 
+			height: 20px;
+			width: 500px;
+			position: relative;
+			margin: 5px 0 20px 0;
+			background: #555;
+			-moz-border-radius: 25px;
+			-webkit-border-radius: 25px;
+			border-radius:25p">
 
   
   
@@ -72,30 +96,169 @@
         <section id="main"><article id="page-undefined" class="article article-type-page" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/IT-profile/index.html" class="article-date">
-  <time datetime="2014-10-08T19:08:42.000Z" itemprop="datePublished">Oct 8 2014</time>
+  <time datetime="2014-11-27T16:03:15.000Z" itemprop="datePublished">Nov 27 2014</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      IT-profile
-    </h1>
-  
-
-      </header>
-    
     <div class="article-entry" itemprop="articleBody">
       
+        <!DOCTYPE html>
+<html>
+<head>
+<style>
+		.meter { 
+			height: 20px;
+			width: 500px;
+			position: relative;
+			margin: 5px 0 20px 0;
+			background: #555;
+			-moz-border-radius: 25px;
+			-webkit-border-radius: 25px;
+			border-radius:25px;
+			padding: 10px;
+		}
+		.meter > span {
+			display: block;
+			height: 100%;
+			background-color: rgb(0, 0, 80,);
+			background-image: -webkit-gradient(
+			  linear,
+			  left bottom,
+			  left top,
+			  color-stop(0, rgb(0,0,80)),
+			  color-stop(1, rgb(255,255,255))
+			 );
+			position: relative;
+			overflow: hidden;
+		}
+		
+		.meter > span:after, .animate > span > span {
+			content: "";
+			position: absolute;
+			top: 0; left: 0; bottom: 0; right: 0;
+			background-image: 
+			   -webkit-gradient(linear, 0 0, 100% 100%, 
+			      color-stop(.25, rgba(0, 0, 80, .2)), 
+			      color-stop(.25, transparent), color-stop(.5, transparent), 
+			      color-stop(.5, rgba(0, 0, 80, .2)), 
+			      color-stop(.75, rgba(0, 0, 80, .2)), 
+			      color-stop(.75, transparent), to(transparent)
+			   );
+
+			z-index: 1;
+			-webkit-background-size: 60px 60px;
+			-moz-background-size: 60px 60px;
+			-webkit-animation: move 3s linear infinite;
+
+			overflow: hidden;
+		}
+				
+		@-webkit-keyframes move {
+		    0% {
+		       background-position: 0 0;
+		    }
+		    100% {
+		       background-position: 50px 50px;
+		    }
+		}
+		
+		.red > span {
+			background-color: #000060
+			background-image: -moz-linear-gradient(top, #000060, #ffffff);
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #000060),color-stop(1, #ffffff));
+			background-image: -webkit-linear-gradient(#000060, #ffffff);
+		}
+		h1 {
+            color: #000060;
+			text-decoration: underline;
+            text-align: Center;
+            font-size: 72px;
+			
+        }
+    
+        h2 {
+            color: #000060;
+            font-size: 40px;
+        }
+    
+        h3 {
+            color: #000060;
+
+        }
+        h4 {
+            color: #000060;
+            font-style: italic;
+        }
         
+        ul{
+        list-style-type:disc;
+        }
+    
+        p{
+        text-align: center;
+        }
+    
+        #geheel{
+
+        }
+
+	</style>
+</head>
+<body>
+    <div id="geheel">
+<h1>IT-Profile</h1>
+<p>Hieronder vind je een overzicht van mijn vaardigheden met programmeertalen en kennis van IT. Alles is op een schaal van 0 t.e.m. 5.</p>
+
+<h2>Programmeertalen<h2>
+<h3>C#</h3>
+    <div class="meter orange">
+		<span style="width: 60%"></span>
+	</div>
+<h3>CSS</h3>
+    <div class="meter orange">
+		<span style="width: 40%"></span>
+	</div>
+<h3>Javascript</h3>
+    <div class="meter red">
+		<span style="width: 20%"></span>
+	</div>
+
+    
+<h2>Kennis<h2>
+<h3>Besturingssystemen</h3>
+<ul><li><h4>Windows</h4>
+	<div class="meter animate">
+		<span style="width: 80%"></span>
+	</div></li>
+<li><h4>Linux<h4>
+	<div class="meter red">
+		<span style="width: 20%"></span>
+	</div></h4></h4></li>
+<li><h4>Mac OS</h4>	
+	<div class="meter red">
+		<span style="width: 20%"></span>
+	</div></li>
+
+</ul>
+<h3>Netwerken</h3>
+    <div class="meter animate">
+		<span style="width: 80%"></span>
+	</div>
+	<h3>Hardware</h3>
+    <div class="meter animate">
+		<span style="width: 80%"></span>
+	</div>
+</h2></h2></h2></h2></div>
+</body>
+</html>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://MathiasMeeusen.github.io/IT-profile/index.html" data-id="9yhlzgcmfmxnqa2x" class="article-share-link">Share</a>
+      <a data-url="http://MathiasMeeusen.github.io/IT-profile/index.html" data-id="lx0wevavj9dvjt37" class="article-share-link">Share</a>
       
       
     </footer>
