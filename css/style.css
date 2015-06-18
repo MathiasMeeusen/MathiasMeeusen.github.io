@@ -360,11 +360,11 @@ body {
   color: #fff;
   opacity: 0.9;
   text-decoration: none;
-  text-shadow: 0 1px rgba(0,0,0,0.3);
-  -webkit-transition: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  transition: opacity 0.2s;
+  text-shadow: 0 2px rgba(0,0,0,0.3);
+  -webkit-transition: opacity 0.1s;
+  -moz-transition: opacity 0.1s;
+  -ms-transition: opacity 0.1s;
+  transition: opacity 0.1s;
   display: block;
   padding: 20px 15px;
 }
